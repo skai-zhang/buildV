@@ -8,16 +8,28 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ccapture.js": "^1.1.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "element-ui": "^2.4.5",
+    "gsap": "^3.6.0",
+    "three": "^0.125.2",
+    "vue": "^2.6.11",
+    "vue-codemirror": "^4.0.6",
+    "vue-router": "^3.2.0",
+    "webm-writer": "^0.3.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.11",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "import-three-examples": "^2.2.3",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "vue-cli-plugin-element": "~1.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -32,7 +44,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
